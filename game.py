@@ -15,7 +15,7 @@ def main():
 
     # Keep track of how many goblins were defeated
     defeated_goblins = 0
-    total_damage=0
+
     rounds= 0
 
     # Battle Loop 
@@ -45,7 +45,6 @@ def main():
         print(f"\nThe hero has defeated all the goblins! ༼ ᕤ◕◡◕ ༽ᕤ")
     else:
         print(f"\nThe hero has been defeated. Game Over. (｡•́︿•̀｡)")
-    print(f"\nTotal damage delt: {total_damage}")
     print(f"total rounds fought:{rounds}")
     # Final tally of goblins defeated
     print(f"\nTotal goblins defeated: {defeated_goblins} / {len(goblins)}")
