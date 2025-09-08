@@ -63,6 +63,6 @@ def main():
         print(f"\nThe dragon won you.For shame.")
 
     print(f"\nTotal goblins defeated: {defeated_goblins} / {len(goblins)}")
-
+    print("Mr speak was here 😎")
 if __name__ == "__main__":
     main()
